@@ -1,9 +1,9 @@
 /* global setting  */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -11,13 +11,13 @@
 }
 
 /* global varible */
-:root{
-    /* COLOR  */
-  --main-color : #FF8527  ;
-  --heading-color : #000000;
-  --light-gray :#636773;                            /* using this in subheading and paragraph*/
-  --bg-color : #E5E5E5;                               /* using in third page*/ 
-    --date-color: #7b8292;
+:root {
+  /* COLOR  */
+  --main-color: #ff8527;
+  --heading-color: #000000;
+  --light-gray: #636773; /* using this in subheading and paragraph*/
+  --bg-color: #e5e5e5; /* using in third page*/
+  --date-color: #7b8292;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --white-color: #fff;
   --secondary-bg-color: #f2f3f4;
@@ -66,8 +66,30 @@ header {
   top: 0;
   width: 100vw;
   height: 408px;
-  background: url(media/p3-Image.jpg) no-repeat;
+  /* background: url() no-repeat; */
   background-size: cover;
+  position: relative;
+}
+header .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 408px;
+  overflow: hidden;
+  background-size: cover;
+}
+@media (min-width: 660px) {
+  header .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 660;
+    overflow: hidden;
+    height: 408px;
+  }
 }
 header .header-content {
   margin: 0 auto;
@@ -94,7 +116,7 @@ header .header-content a:focus {
 /* Start Main Section */
 main {
   background: var(--bg-color);
-  height: 100vh;
+  height: 50vh;
 }
 main .add-to-menu {
   padding: 16px;
@@ -231,6 +253,9 @@ p.reviewer-comment {
 
 /* Start Footer Section */
 footer {
+  position: relative;
+}
+footer .footer-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -243,6 +268,7 @@ footer a img {
   height: 24px;
 }
 /* End Footer Section */
+
 @media (min-width: 768px) {
   .input,
   input {
@@ -253,13 +279,20 @@ footer a img {
     top: 1.2vh !important;
   }
 }
+@media (min-width: 970px) {
+  footer {
+    width: 100vw;
+    background-color: var(--bg-color);
+    height: 76px;
+  }
+}
 @media (min-width: 992px) {
   .reviews {
     margin: 0 auto;
     left: 50% !important;
     transform: translateX(-50%);
   }
-  footer {
+  footer .footer-section {
     position: absolute;
     bottom: 0;
     width: 970px;
@@ -269,8 +302,21 @@ footer a img {
   }
 }
 @media (min-width: 1200px) {
-  /* .header-content */
-  footer {
+  header {
+    background-color: var(--bg-color);
+    z-index: -1;
+  }
+  header .bg {
+    width: 1119px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  main .add-to-menu {
+    margin-top: -25px !important;
+    width: 1110px;
+  }
+  footer .footer-section {
     width: 1119px;
   }
 }
