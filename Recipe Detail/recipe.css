@@ -1,24 +1,23 @@
 /* global setting  */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
 
-/* global variable */
-:root {
-  /* COLOR   */
-  --main-color: #ff8527;
-  --heading-color: #000000;
-  --light-gray: #636773;
-  --bg-color: #e5e5e5; 
-
-  --date-color: #7b8292;
+/* global varible */
+:root{
+    /* COLOR  */
+  --main-color : #FF8527  ;
+  --heading-color : #000000;
+  --light-gray :#636773;                            /* using this in subheading and paragraph*/
+  --bg-color : #E5E5E5;                               /* using in third page*/ 
+    --date-color: #7b8292;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --white-color: #fff;
   --secondary-bg-color: #f2f3f4;
@@ -147,8 +146,6 @@ main .add-to-menu .name-evaluation p {
   padding: 0 16px;
   color: var(--light-gray);
   display: flex;
-}
-main .add-to-menu .name-evaluation p span {
 }
 main .add-to-menu .name-evaluation p span img {
   height: 18px;
