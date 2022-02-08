@@ -1,0 +1,136 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+.login-box{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 42px 16px 24px;
+position: absolute;
+margin-top: 60px;
+width: 375px;
+height: 590px;
+background: #FFFFFF;
+border-radius: 10px;
+
+}
+.cover-image{
+width: 98vw;
+}
+.header-title{
+    position: static;
+    width: 132px;
+    height: 50px;
+    left: 25px;
+    font-family: Recoleta;
+    font-size: 38px;
+    text-align: center;
+    color: #000000;
+}
+.header-sub-title{
+font-family: Cera Pro;
+font-size: 17px;
+text-align: center;
+color: #000000;
+}
+.tow-tn{
+    display: flex;
+}
+.phone-no{
+    display: flex;
+flex-direction: row;
+padding: 14px 16px;
+width: 343px;
+height: 52px;
+background: #FFFFFF;
+border: 1px solid #E1E2E3;
+box-sizing: border-box;
+border-radius: 8px;
+
+}
+.btn-submit{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 16px;
+width: 343px;
+height: 48px;
+top: 67px;
+background: #FF8527;
+border-radius: 8px;
+margin: 15px 0px;
+}
+
+.or{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-family: Cera Pro;
+font-size: 16px;
+color: #B3B4BA;
+margin: 6px 7px 6px 7px;
+}
+.btn-group{
+    margin-top: 1px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.apple-btn{
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+padding: 8px 20px 8px 12px;
+width: 343px;
+height: 53px;
+background: #FFFFFF;
+border: 1px solid #E1E2E3;
+box-sizing: border-box;
+border-radius: 12px;
+margin: 9px 8px 9px 8px;
+}
+.google-btn{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 20px 8px 12px;
+width: 156px;
+height: 53px;
+left: 176px;
+background: #FFFFFF;
+border: 1px solid #E1E2E3;
+box-sizing: border-box;
+border-radius: 12px;
+margin: 0px 10px 9px 8px;
+}
+
+.facebook-btn{
+
+    display: flex;
+flex-direction: row;
+text-align: center;
+align-items: center;
+padding: 8px 20px 8px 12px;
+width: 165px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #E1E2E3;
+box-sizing: border-box;
+border-radius: 12px;
+margin: 0px 10px;
+}
+
+.footer{
+ font-family: Cera Pro;
+font-size: 12px;
+text-align: center;
+color: #000000;
+margin: 36px 0px;
+}
