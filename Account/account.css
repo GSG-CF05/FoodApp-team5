@@ -188,7 +188,7 @@ ul li.active:hover {
     font-size: 26px;
     margin-top: 80px;
     padding: 5px 10px 5px;
-    line-height: 1.5;
+    line-height: 2.4;
   }
   .lists ul li {
     font-size: 26px;
@@ -299,4 +299,127 @@ ul li.active:hover {
   .review .content .sub-heading .icons :last-child {
     padding-left: 10px;
   }
+}
+
+/* --------------- Responsive Section ----------------- */
+@media (max-width: 1200px) {
+   .review .content{
+     font-size: 20px;
+   }
+  .profile {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+    object-fit: cover;
+  }
+  .profile i {
+    padding: 25px;
+    margin: 0 20px 20px;
+  }
+.info-section .personal-info {
+    position:absolute;
+    left: 10%;
+    top: 15%;
+    width: 80%;
+    font-size: 22px;
+  }
+  .personal-info img {
+    margin-top: -130px;
+    border-radius: 50%;
+    width: 60%;
+    object-fit: cover;
+  }
+  .lists ul li {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 80px;
+  }
+  .lists ul li.active,
+  .lists ul li:hover {
+    font-size: 26px;
+  }
+  .review {
+    line-height: 1.6;
+    padding: 30px 10px 30px;
+
+  }
+  .review .content {
+    width: 70%;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .review .post-img {
+    width: 40%;
+  }
+  .review .post-img img {
+    width: 40%;
+    object-fit: cover;
+    margin-left: 40px;
+  }
+
+  .review .content .sub-heading .icons {
+    padding-left: 100px;
+  }
+  .review .content .sub-heading .icons :last-child {
+    padding-left: 40px;
+  }
+}
+  @media (min-width:768px) {
+     .personal-info .content{
+      font-size: 20px;
+     }
+     .review .content{
+       font-size: 20px;
+     }
+     .info-section .personal-info {
+       left: 22%;
+       top: 10%;
+       width: 50%;
+       margin-bottom: 100px;
+     }
+     
+  }
+
+
+ @media (min-width: 992px) {
+  .info-section .personal-info {
+     left: 25%;
+     top: 25%;
+     width: 50%;
+     margin-bottom: 20px;
+  }
+  .review .content .sub-heading .icons {
+    padding-left: 80px;
+  }
+  .review .content .sub-heading .icons :last-child {
+    padding-left: 50px;
+  }
+  .profile {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    object-fit: cover;
+  }
+  .review{
+    padding: 20px 10px 20px;
+  }
+}
+@media (max-width:575px) {
+  .info-section .personal-info {
+      top: 12%;
+      left: 12%;
+  }
+  .review .content .sub-heading .icons {
+    padding-left: 60px;
+  }
+  .review .content .sub-heading .icons :last-child {
+    padding-left: 10px;
+  } 
 }
