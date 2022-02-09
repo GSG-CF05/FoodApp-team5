@@ -153,8 +153,6 @@ main .add-to-menu .input label {
   right: 8px;
   top: 4px;
 }
-main .add-to-menu .name-evaluation {
-}
 main .add-to-menu .name-evaluation h3 {
   margin: 16px 0;
   width: 85%;
@@ -230,9 +228,6 @@ main .reviews .review-info {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-}
-main .reviews .review-info img:first-of-type {
-  /* width: 32px; */
 }
 main .reviews .reviewer-info {
   width: calc(100% - 64px);
