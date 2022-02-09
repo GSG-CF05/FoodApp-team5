@@ -134,3 +134,44 @@ text-align: center;
 color: #000000;
 margin: 36px 0px;
 }
+@media(max-width:400px){
+    html{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+    } 
+    .login-box{
+        margin-top: 220px;
+        width: 100%;
+    }
+    .cover-image{
+        width: 100%;
+    }
+.facebook-btn{
+width: 100%;
+}
+.google-btn{
+width: 80%;
+}
+.apple-btn{
+    width: 80%;
+}
+.btn-submit{
+width: 80%;
+}
+.phone-no{
+width: 80%;
+}
+.header-title{
+width: 80%;
+}
+
+}
+
